@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:engli'
 
 void main() => runApp(MyApp());
 
@@ -6,9 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       theme: ThemeData(primaryColor: Colors.purple[900]),
+        theme: ThemeData(primaryColor: Colors.purple[900]),
         home: Scaffold(
-      appBar: AppBar(title: Text('WordPair Generator')),
-    ));
+            appBar: AppBar(title: Text('WordPair Generator')),
+            body: Center(
+              child: Text('Hello World'),
+            )));
   }
 }
